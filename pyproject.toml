@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [project]
 name = "bookstore"
 version = "0.1.0"
@@ -19,25 +18,3 @@ dependencies = [
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-=======
-[project]
-name = "bookstore"
-version = "0.1.0"
-description = "bookstore API"
-authors = [
-    {name = "Edward",email = "eric199703@hotmail.com"}
-]
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "pytest (>=9.0.2,<10.0.0)",
-    "factory-boy (>=3.3.3,<4.0.0)",
-    "django (>=6.0,<7.0)",
-    "djangorestframework (>=3.16.1,<4.0.0)"
-]
-
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
->>>>>>> c3e5ec581c243edc5370c8b26fd150284cd93280

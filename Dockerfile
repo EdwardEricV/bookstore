@@ -31,12 +31,12 @@ ENV PYTHONUNBUFFERED=1 \
 # prepend poetry and venv to path
 ENV PATH="$POETRY_HOME/bin:$VENV_PATH/bin:$PATH"
 
-RUN apt-get update \
-    && apt-get install --no-install-recommends -y \
+# RUN apt-get update \
+    # && apt-get install --no-install-recommends -y \
         # deps for installing poetry
-        curl \
+        # curl \
         # deps for building python deps
-        build-essential
+        # build-essential
 
 # install poetry - respects $POETRY_VERSION & $POETRY_HOME
 RUN curl -sSL https://install.python-poetry.org | python3 -
